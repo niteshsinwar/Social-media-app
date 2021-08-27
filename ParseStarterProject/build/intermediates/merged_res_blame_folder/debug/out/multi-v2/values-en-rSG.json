@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\programs\\.my programs\\app development\\z-myProjects\\6-nistayte\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nites\\.gradle\\caches\\transforms-3\\0f68e68331daa2421447bbb66d8a4ced\\transformed\\jetified-play-services-wallet-12.0.1\\res\\values-en-rSG\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "99",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "103",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}

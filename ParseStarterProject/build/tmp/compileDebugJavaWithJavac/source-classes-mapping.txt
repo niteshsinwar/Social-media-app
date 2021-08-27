@@ -1,0 +1,43 @@
+com/parse/starter/ChatActivity.java
+ com.parse.starter.ChatActivity
+ com.parse.starter.ChatActivity$1
+ com.parse.starter.ChatActivity$2
+com/parse/starter/FeedActivity.java
+ com.parse.starter.FeedActivity
+ com.parse.starter.FeedActivity$1
+com/parse/starter/StarterApplication.java
+ com.parse.starter.StarterApplication
+com/parse/starter/ShareSnapActivity.java
+ com.parse.starter.ShareSnapActivity
+ com.parse.starter.ShareSnapActivity$1
+com/parse/starter/MainActivity.java
+ com.parse.starter.MainActivity
+ com.parse.starter.MainActivity$1
+ com.parse.starter.MainActivity$1$1
+com/parse/starter/ViewSnapActivity.java
+ com.parse.starter.ViewSnapActivity
+ com.parse.starter.ViewSnapActivity$1
+ com.parse.starter.ViewSnapActivity$1$1
+com/parse/starter/DashboardActivity.java
+ com.parse.starter.DashboardActivity
+ com.parse.starter.DashboardActivity$1
+ com.parse.starter.DashboardActivity$1$1
+ com.parse.starter.DashboardActivity$2
+com/parse/starter/BuildConfig.java
+ com.parse.starter.BuildConfig
+com/parse/starter/UsersActivity.java
+ com.parse.starter.UsersActivity
+ com.parse.starter.UsersActivity$1
+ com.parse.starter.UsersActivity$2
+ com.parse.starter.UsersActivity$2$1
+ com.parse.starter.UsersActivity$3
+ com.parse.starter.UsersActivity$4
+ com.parse.starter.UsersActivity$5
+ com.parse.starter.UsersActivity$6
+com/parse/starter/NotificationActivity.java
+ com.parse.starter.NotificationActivity
+ com.parse.starter.NotificationActivity$1
+ com.parse.starter.NotificationActivity$1$1
+ com.parse.starter.NotificationActivity$1$1$1
+ com.parse.starter.NotificationActivity$2
+ com.parse.starter.NotificationActivity$3
