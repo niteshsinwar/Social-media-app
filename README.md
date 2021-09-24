@@ -6,4 +6,6 @@ features I used here:-
 4. you can share your tweets
 5. you can follow/unfollow users
 6. you can send images privately
-7.you can do private chat with users
+7. you can do private chat with users
+---------------------------------------------------------------------------
+📌(APK file is also given in GitHub repository from where you can download and test my app on your device)
