@@ -6,396 +6,391 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml
+8-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml
+9-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:5:5-67
-11-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:5:22-64
+11-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:5:5-67
+11-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:6:5-79
-12-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:6:22-76
+12-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:6:5-79
+12-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:7:5-80
-13-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:7:22-77
+13-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:7:5-80
+13-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:8:5-79
-14-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:8:22-76
+14-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:8:5-79
+14-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:8:22-76
 15
 16    <!-- Optional permission for Analytics to run. -->
 17    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
-17-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:27:5-68
-17-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:27:22-65
+17-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:27:5-68
+17-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:27:22-65
 18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-18-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\aa63cb43507832ac79563ff273b2121c\transformed\jetified-play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
-18-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\aa63cb43507832ac79563ff273b2121c\transformed\jetified-play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
+18-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0eebdeeb134f6d7c28c1be2ec9ed8332\transformed\jetified-play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
+18-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0eebdeeb134f6d7c28c1be2ec9ed8332\transformed\jetified-play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
 19
 20    <uses-feature
-20-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b91f9ee1f980d21c8babc601581138a2\transformed\jetified-play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
+20-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\1920d83c96a8160f6bbcc4a11fb7a169\transformed\jetified-play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
 21        android:glEsVersion="0x00020000"
-21-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b91f9ee1f980d21c8babc601581138a2\transformed\jetified-play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
+21-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\1920d83c96a8160f6bbcc4a11fb7a169\transformed\jetified-play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
 22        android:required="true" />
-22-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b91f9ee1f980d21c8babc601581138a2\transformed\jetified-play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
+22-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\1920d83c96a8160f6bbcc4a11fb7a169\transformed\jetified-play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
 23
 24    <permission
-24-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+24-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
 25        android:name="com.parse.starter.permission.C2D_MESSAGE"
-25-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+25-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
 26        android:protectionLevel="signature" />
-26-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+26-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
 27
 28    <uses-permission android:name="com.parse.starter.permission.C2D_MESSAGE" />
-28-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
-28-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+28-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+28-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
 29
 30    <application
-30-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:10:5-47:19
+30-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:10:5-44:19
 31        android:name="com.parse.starter.StarterApplication"
-31-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:11:9-43
+31-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:11:9-43
 32        android:allowBackup="true"
-32-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:12:9-35
+32-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:12:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.5.0] C:\Users\nites\.gradle\caches\transforms-3\e759884e8e1539e68246ec4d8729cc98\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+33-->[androidx.core:core:1.5.0] C:\Users\nites\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:extractNativeLibs="false"
 36        android:icon="@mipmap/ic_launcher"
-36-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:13:9-43
+36-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:13:9-43
 37        android:label="@string/app_name"
-37-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:14:9-41
-38        android:theme="@style/AppTheme"
-38-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:15:9-40
-39        android:usesCleartextTraffic="true" >
-39-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:16:9-44
-40        <activity
-40-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:17:9-19:39
-41            android:name="com.parse.starter.ChatActivity"
-41-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:18:13-41
-42            android:exported="true" />
-42-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:19:13-36
-43        <activity
-43-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:20:9-22:39
-44            android:name="com.parse.starter.ViewSnapActivity"
-44-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:21:13-45
-45            android:exported="true" />
-45-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:22:13-36
-46        <activity
-46-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:23:9-25:39
-47            android:name="com.parse.starter.ShareSnapActivity"
-47-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:24:13-46
-48            android:exported="true" />
-48-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:25:13-36
-49        <activity
-49-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:26:9-28:39
-50            android:name="com.parse.starter.DashboardActivity"
-50-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:27:13-46
-51            android:exported="true" />
-51-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:28:13-36
-52        <activity
-52-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:29:9-31:39
-53            android:name="com.parse.starter.NotificationActivity"
-53-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:30:13-49
-54            android:exported="true" />
-54-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:31:13-36
-55        <activity
-55-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:32:9-34:39
-56            android:name="com.parse.starter.UsersActivity"
-56-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:33:13-42
-57            android:exported="true" />
-57-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:34:13-36
-58        <activity
-58-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:35:9-37:39
-59            android:name="com.parse.starter.FeedActivity"
-59-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:36:13-41
-60            android:exported="true" />
-60-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:37:13-36
-61        <activity
-61-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:38:9-46:20
-62            android:name="com.parse.starter.MainActivity"
-62-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:39:13-41
-63            android:label="@string/app_name" >
-63-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:40:13-45
-64            <intent-filter>
-64-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:41:13-45:29
-65                <action android:name="android.intent.action.MAIN" />
-65-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:42:17-69
-65-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:42:25-66
-66
-67                <category android:name="android.intent.category.LAUNCHER" />
-67-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:44:17-77
-67-->D:\programs\.my programs\app development\z-myProjects\6-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:44:27-74
-68            </intent-filter>
-69        </activity>
+37-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:14:9-41
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme"
+39-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:15:9-40
+40        android:usesCleartextTraffic="true" >
+40-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:16:9-44
+41        <activity
+41-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:17:9-19:39
+42            android:name="com.parse.starter.ChatActivity"
+42-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:18:13-41
+43            android:exported="true" />
+43-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:19:13-36
+44        <activity
+44-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:20:9-22:39
+45            android:name="com.parse.starter.ViewSnapActivity"
+45-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:21:13-45
+46            android:exported="true" />
+46-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:22:13-36
+47        <activity
+47-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:23:9-25:39
+48            android:name="com.parse.starter.DashboardActivity"
+48-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:24:13-46
+49            android:exported="true" />
+49-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:25:13-36
+50        <activity
+50-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:26:9-28:39
+51            android:name="com.parse.starter.NotificationActivity"
+51-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:27:13-49
+52            android:exported="true" />
+52-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:28:13-36
+53        <activity
+53-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:29:9-31:39
+54            android:name="com.parse.starter.UsersActivity"
+54-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:30:13-42
+55            android:exported="true" />
+55-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:31:13-36
+56        <activity
+56-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:32:9-34:39
+57            android:name="com.parse.starter.FeedActivity"
+57-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:33:13-41
+58            android:exported="true" />
+58-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:34:13-36
+59        <activity
+59-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:35:9-43:20
+60            android:name="com.parse.starter.MainActivity"
+60-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:36:13-41
+61            android:label="@string/app_name" >
+61-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:37:13-45
+62            <intent-filter>
+62-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:38:13-42:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:39:17-69
+63-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:39:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:41:17-77
+65-->D:\programs\.my programs\app development\z-myProjects\2-nistayte\ParseStarterProject\src\main\AndroidManifest.xml:41:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+69-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e362723271e7123ea2843e30be91e51e\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+69-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e362723271e7123ea2843e30be91e51e\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
 70
-71        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
-71-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e531dd77cd763ee8e3912f63efc1987c\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
-71-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e531dd77cd763ee8e3912f63efc1987c\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
-72
-73        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
-73-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e531dd77cd763ee8e3912f63efc1987c\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
-73-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e531dd77cd763ee8e3912f63efc1987c\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
-74        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-74-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e531dd77cd763ee8e3912f63efc1987c\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
-74-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e531dd77cd763ee8e3912f63efc1987c\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
-75        <activity
-75-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\53849ea5266fde543764d56c65c404ac\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
-76            android:name="com.google.android.gms.ads.AdActivity"
-76-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\53849ea5266fde543764d56c65c404ac\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
-77            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-77-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\53849ea5266fde543764d56c65c404ac\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
-78            android:exported="false"
-78-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\53849ea5266fde543764d56c65c404ac\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
-79            android:theme="@android:style/Theme.Translucent" />
-79-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\53849ea5266fde543764d56c65c404ac\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
-80
-81        <receiver
-81-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
-82            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
-82-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
-83            android:enabled="true"
-83-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
-84            android:exported="false" >
-84-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
-85        </receiver>
-86
-87        <service
-87-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
-88            android:name="com.google.android.gms.analytics.AnalyticsService"
-88-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
-89            android:enabled="true"
-89-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
-90            android:exported="false" />
-90-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
-91        <service
-91-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
-92            android:name="com.google.android.gms.analytics.AnalyticsJobService"
-92-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
-93            android:enabled="true"
-93-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
-94            android:exported="false"
-94-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
-95            android:permission="android.permission.BIND_JOB_SERVICE" />
-95-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\4267680fa74682405f79e1c032311c18\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
-96
-97        <activity
-97-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
-98            android:name="com.google.android.gms.appinvite.PreviewActivity"
-98-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
-99            android:exported="true"
-99-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
-100            android:theme="@style/Theme.AppInvite.Preview" >
-100-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
-101            <intent-filter>
-101-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
-102                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
-102-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
-102-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
-103
-104                <category android:name="android.intent.category.DEFAULT" />
-104-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
-104-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
-105            </intent-filter>
-106        </activity>
-107        <activity
-107-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
-108            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-108-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
-109            android:excludeFromRecents="true"
-109-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
-110            android:exported="false"
-110-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
-111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-111-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
-112        <!--
-113            Service handling Google Sign-In user revocation. For apps that do not integrate with
-114            Google Sign-In, this service will never be started.
-115        -->
-116        <service
-116-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
-117            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-117-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
-118            android:exported="true"
-118-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
-119            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-119-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\ee4ee1ea6a7f240f22db398ee4dcc0aa\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
-120
-121        <activity
-121-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b2176d429db9022a3fad67b2dbb0f6a2\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
-122            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-122-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b2176d429db9022a3fad67b2dbb0f6a2\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
-123            android:excludeFromRecents="true"
-123-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b2176d429db9022a3fad67b2dbb0f6a2\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
-124            android:exported="true"
-124-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b2176d429db9022a3fad67b2dbb0f6a2\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
-125            android:launchMode="singleInstance"
-125-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b2176d429db9022a3fad67b2dbb0f6a2\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
-126            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-126-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b2176d429db9022a3fad67b2dbb0f6a2\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
-127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-127-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\b2176d429db9022a3fad67b2dbb0f6a2\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
-128        <activity
-128-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\59eefb0825f4f577a0c85dafb7913f40\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
-129            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-129-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\59eefb0825f4f577a0c85dafb7913f40\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:24:13-79
-130            android:exported="false"
-130-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\59eefb0825f4f577a0c85dafb7913f40\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:25:13-37
-131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-131-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\59eefb0825f4f577a0c85dafb7913f40\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:26:13-72
-132        <!--
-133             FirebaseMessagingService performs security checks at runtime,
-134             no need for explicit permissions despite exported="true"
-135        -->
-136        <service
-136-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\dc81356cf2f7da9498425687b3ddd2d5\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
-137            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-137-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\dc81356cf2f7da9498425687b3ddd2d5\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
-138            android:exported="true" >
-138-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\dc81356cf2f7da9498425687b3ddd2d5\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
-139            <intent-filter android:priority="-500" >
-139-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\dc81356cf2f7da9498425687b3ddd2d5\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
-139-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\dc81356cf2f7da9498425687b3ddd2d5\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
-140                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-140-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\dc81356cf2f7da9498425687b3ddd2d5\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
-140-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\dc81356cf2f7da9498425687b3ddd2d5\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
-141            </intent-filter>
-142        </service>
-143        <service
-143-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
-144            android:name="com.google.android.gms.tagmanager.TagManagerService"
-144-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
-145            android:enabled="true"
-145-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
-146            android:exported="false" />
-146-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
-147
-148        <activity
-148-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
-149            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
-149-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
-150            android:exported="true"
-150-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
-151            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
-151-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
-152            <intent-filter>
-152-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
-153                <data android:scheme="tagmanager.c.com.parse.starter" />
-153-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
-153-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+71        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+71-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e362723271e7123ea2843e30be91e51e\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+71-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e362723271e7123ea2843e30be91e51e\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+72        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+72-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e362723271e7123ea2843e30be91e51e\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+72-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e362723271e7123ea2843e30be91e51e\transformed\jetified-play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+73        <activity
+73-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\8a4acdfd7071ab3ecb5fd87243e4bf48\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+74            android:name="com.google.android.gms.ads.AdActivity"
+74-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\8a4acdfd7071ab3ecb5fd87243e4bf48\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
+75            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+75-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\8a4acdfd7071ab3ecb5fd87243e4bf48\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\8a4acdfd7071ab3ecb5fd87243e4bf48\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+77            android:theme="@android:style/Theme.Translucent" />
+77-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\8a4acdfd7071ab3ecb5fd87243e4bf48\transformed\jetified-play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+78
+79        <receiver
+79-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+80            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+80-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+81            android:enabled="true"
+81-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+82            android:exported="false" >
+82-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+83        </receiver>
+84
+85        <service
+85-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+86            android:name="com.google.android.gms.analytics.AnalyticsService"
+86-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+87            android:enabled="true"
+87-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+88            android:exported="false" />
+88-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+89        <service
+89-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+90            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+90-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+91            android:enabled="true"
+91-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+93            android:permission="android.permission.BIND_JOB_SERVICE" />
+93-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\816fe38b1a5437f712258940c023796b\transformed\jetified-play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+94
+95        <activity
+95-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+96            android:name="com.google.android.gms.appinvite.PreviewActivity"
+96-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+97            android:exported="true"
+97-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+98            android:theme="@style/Theme.AppInvite.Preview" >
+98-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+99            <intent-filter>
+99-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+100                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+100-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+100-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+102-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+106            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+106-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+107            android:excludeFromRecents="true"
+107-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+110        <!--
+111            Service handling Google Sign-In user revocation. For apps that do not integrate with
+112            Google Sign-In, this service will never be started.
+113        -->
+114        <service
+114-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+115            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+115-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+116            android:exported="true"
+116-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+117            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+117-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\882c69d1cd015c680b6fa2551b372ce9\transformed\jetified-play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+118
+119        <activity
+119-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e095e35226b6b2fc086f7418892e8770\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+120            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+120-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e095e35226b6b2fc086f7418892e8770\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+121            android:excludeFromRecents="true"
+121-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e095e35226b6b2fc086f7418892e8770\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+122            android:exported="true"
+122-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e095e35226b6b2fc086f7418892e8770\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+123            android:launchMode="singleInstance"
+123-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e095e35226b6b2fc086f7418892e8770\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+124            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+124-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e095e35226b6b2fc086f7418892e8770\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\e095e35226b6b2fc086f7418892e8770\transformed\jetified-firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+126        <activity
+126-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\01debbea01a31d146d66e09bb003ae16\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\01debbea01a31d146d66e09bb003ae16\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\01debbea01a31d146d66e09bb003ae16\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\01debbea01a31d146d66e09bb003ae16\transformed\jetified-play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+130        <!--
+131             FirebaseMessagingService performs security checks at runtime,
+132             no need for explicit permissions despite exported="true"
+133        -->
+134        <service
+134-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\48e403913540ba5805963391af4326ea\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+135            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+135-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\48e403913540ba5805963391af4326ea\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+136            android:exported="true" >
+136-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\48e403913540ba5805963391af4326ea\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+137            <intent-filter android:priority="-500" >
+137-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\48e403913540ba5805963391af4326ea\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+137-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\48e403913540ba5805963391af4326ea\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+138                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+138-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\48e403913540ba5805963391af4326ea\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+138-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\48e403913540ba5805963391af4326ea\transformed\jetified-firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+139            </intent-filter>
+140        </service>
+141        <service
+141-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+142            android:name="com.google.android.gms.tagmanager.TagManagerService"
+142-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+143            android:enabled="true"
+143-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+144            android:exported="false" />
+144-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+145
+146        <activity
+146-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+147            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+147-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+148            android:exported="true"
+148-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+149            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+149-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+150            <intent-filter>
+150-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+151                <data android:scheme="tagmanager.c.com.parse.starter" />
+151-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+151-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+152
+153                <action android:name="android.intent.action.VIEW" />
+153-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+153-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
 154
-155                <action android:name="android.intent.action.VIEW" />
-155-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
-155-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
-156
-157                <category android:name="android.intent.category.DEFAULT" />
-157-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
-157-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f07e229e434adfeff523abcb10fc7121\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
-158                <category android:name="android.intent.category.BROWSABLE" />
-158-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
-158-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f980cd4dc368c759a8ad5b1f23a62bad\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
-159            </intent-filter>
-160        </activity>
-161
-162        <receiver
-162-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
-163            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-163-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
-164            android:enabled="true"
-164-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
-165            android:exported="false" >
-165-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
-166        </receiver>
-167        <receiver
-167-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
-168            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-168-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
-169            android:enabled="true"
-169-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
-170            android:exported="true"
-170-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
-171            android:permission="android.permission.INSTALL_PACKAGES" >
-171-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
-172            <intent-filter>
-172-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
-173                <action android:name="com.android.vending.INSTALL_REFERRER" />
-173-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
-173-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
-174            </intent-filter>
-175        </receiver>
-176
-177        <service
-177-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
-178            android:name="com.google.android.gms.measurement.AppMeasurementService"
-178-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
-179            android:enabled="true"
-179-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
-180            android:exported="false" />
-180-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
-181        <service
-181-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
-182            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-182-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
-183            android:enabled="true"
-183-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
-184            android:exported="false"
-184-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
-185            android:permission="android.permission.BIND_JOB_SERVICE" />
-185-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f497aa17c0b63da2811895555a493661\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
-186
-187        <receiver
-187-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
-188            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-188-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
-189            android:exported="true"
-189-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
-190            android:permission="com.google.android.c2dm.permission.SEND" >
-190-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
-191            <intent-filter>
-191-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
-192                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-192-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
-192-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
-193
-194                <category android:name="com.parse.starter" />
-194-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
-194-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
-195            </intent-filter>
-196        </receiver>
-197        <!--
-198             FirebaseInstanceIdService performs security checks at runtime,
-199             no need for explicit permissions despite exported="true"
-200        -->
-201        <service
-201-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
-202            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-202-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
-203            android:exported="true" >
-203-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
-204            <intent-filter android:priority="-500" >
-204-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
-204-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
-205                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-205-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
-205-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\cd3f0ae84fb118eeaa06cf8e3fb9c59e\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
-206            </intent-filter>
-207        </service>
-208
-209        <provider
-209-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\c2e5d5d23168277409fc71e7165f98c1\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
-210            android:name="com.google.firebase.provider.FirebaseInitProvider"
-210-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\c2e5d5d23168277409fc71e7165f98c1\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:9:13-77
-211            android:authorities="com.parse.starter.firebaseinitprovider"
-211-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\c2e5d5d23168277409fc71e7165f98c1\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:10:13-72
-212            android:exported="false"
-212-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\c2e5d5d23168277409fc71e7165f98c1\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:11:13-37
-213            android:initOrder="100" />
-213-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\c2e5d5d23168277409fc71e7165f98c1\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:12:13-36
-214
-215        <meta-data
-215-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3dc160bf639d7fb2d26e925f7e5dc358\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
-216            android:name="com.google.android.gms.version"
-216-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3dc160bf639d7fb2d26e925f7e5dc358\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:24:13-58
-217            android:value="@integer/google_play_services_version" />
-217-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3dc160bf639d7fb2d26e925f7e5dc358\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:25:13-66
-218    </application>
-219
-220</manifest>
+155                <category android:name="android.intent.category.DEFAULT" />
+155-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+155-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\0c61f2fb900c1297edf4756d495b8fe0\transformed\jetified-play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+156                <category android:name="android.intent.category.BROWSABLE" />
+156-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+156-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\3d57c4850c8137d9f6ad384cd45e169f\transformed\jetified-play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+157            </intent-filter>
+158        </activity>
+159
+160        <receiver
+160-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+161            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+161-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+162            android:enabled="true"
+162-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+163            android:exported="false" >
+163-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+164        </receiver>
+165        <receiver
+165-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+166            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+166-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+167            android:enabled="true"
+167-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+168            android:exported="true"
+168-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+169            android:permission="android.permission.INSTALL_PACKAGES" >
+169-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+170            <intent-filter>
+170-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+171                <action android:name="com.android.vending.INSTALL_REFERRER" />
+171-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+171-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+172            </intent-filter>
+173        </receiver>
+174
+175        <service
+175-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+176            android:name="com.google.android.gms.measurement.AppMeasurementService"
+176-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+177            android:enabled="true"
+177-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+178            android:exported="false" />
+178-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+179        <service
+179-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+180            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+180-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+181            android:enabled="true"
+181-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+182            android:exported="false"
+182-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+183            android:permission="android.permission.BIND_JOB_SERVICE" />
+183-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f6dba15486072981a7825dfae1df1934\transformed\jetified-firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+184
+185        <receiver
+185-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+186            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+186-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+187            android:exported="true"
+187-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+188            android:permission="com.google.android.c2dm.permission.SEND" >
+188-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+189            <intent-filter>
+189-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+190                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+190-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+190-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+191
+192                <category android:name="com.parse.starter" />
+192-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+192-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+193            </intent-filter>
+194        </receiver>
+195        <!--
+196             FirebaseInstanceIdService performs security checks at runtime,
+197             no need for explicit permissions despite exported="true"
+198        -->
+199        <service
+199-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+200            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+200-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+201            android:exported="true" >
+201-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+202            <intent-filter android:priority="-500" >
+202-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+202-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+203                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+203-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+203-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\7b6a047128d336a6f8a3b801ee721d12\transformed\jetified-firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+204            </intent-filter>
+205        </service>
+206
+207        <provider
+207-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\fdc9f6a0a27b9487adb5af50725fa332\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+208            android:name="com.google.firebase.provider.FirebaseInitProvider"
+208-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\fdc9f6a0a27b9487adb5af50725fa332\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+209            android:authorities="com.parse.starter.firebaseinitprovider"
+209-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\fdc9f6a0a27b9487adb5af50725fa332\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+210            android:exported="false"
+210-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\fdc9f6a0a27b9487adb5af50725fa332\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+211            android:initOrder="100" />
+211-->[com.google.firebase:firebase-common:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\fdc9f6a0a27b9487adb5af50725fa332\transformed\jetified-firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+212
+213        <meta-data
+213-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f185440b3c91d64914ced994e2ae9a6f\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
+214            android:name="com.google.android.gms.version"
+214-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f185440b3c91d64914ced994e2ae9a6f\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:24:13-58
+215            android:value="@integer/google_play_services_version" />
+215-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\nites\.gradle\caches\transforms-3\f185440b3c91d64914ced994e2ae9a6f\transformed\jetified-play-services-basement-12.0.1\AndroidManifest.xml:25:13-66
+216    </application>
+217
+218</manifest>

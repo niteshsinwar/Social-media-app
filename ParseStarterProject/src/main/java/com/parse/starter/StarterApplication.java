@@ -27,12 +27,13 @@ public class StarterApplication extends Application {
 
     // Enable Local Datastore.
     Parse.enableLocalDatastore(this);
-    //"mongodb://bn_parse::7i6QtRosBHN1@3.234.146.223/parse
+      //"mongodb://bn_parse::7i6QtRosBHN1@3.234.146.223/parse
     // Add your initialization code here
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
             .applicationId("myappID")
             .clientKey("7i6QtRosBHN1")
             .server("http://3.234.146.223/parse")
+
             .build()
     );
 

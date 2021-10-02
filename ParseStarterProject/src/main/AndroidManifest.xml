@@ -21,9 +21,6 @@
             android:name=".ViewSnapActivity"
             android:exported="true" />
         <activity
-            android:name=".ShareSnapActivity"
-            android:exported="true" />
-        <activity
             android:name=".DashboardActivity"
             android:exported="true" />
         <activity

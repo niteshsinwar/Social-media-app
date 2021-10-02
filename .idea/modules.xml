@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/6-nistayte.iml" filepath="$PROJECT_DIR$/.idea/modules/6-nistayte.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ParseStarterProject/6-nistayte.ParseStarterProject.iml" filepath="$PROJECT_DIR$/.idea/modules/ParseStarterProject/6-nistayte.ParseStarterProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2-nistayte.iml" filepath="$PROJECT_DIR$/.idea/modules/2-nistayte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ParseStarterProject/2-nistayte.ParseStarterProject.iml" filepath="$PROJECT_DIR$/.idea/modules/ParseStarterProject/2-nistayte.ParseStarterProject.iml" />
     </modules>
   </component>
 </project>

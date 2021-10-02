@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\programs\\.my programs\\app development\\z-myProjects\\6-nistayte\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "D:\\programs\\.my programs\\app development\\z-myProjects\\2-nistayte\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nites\\.gradle\\caches\\transforms-3\\4d1af0e74f5394e2e1b2dbd152897899\\transformed\\mediarouter-1.0.0-alpha5\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\nites\\.gradle\\caches\\transforms-3\\08fe2363ec1466e30905684108b3af54\\transformed\\mediarouter-1.0.0-alpha5\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

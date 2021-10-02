@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -23,22 +24,22 @@ import java.util.List;
 public class ViewSnapActivity extends AppCompatActivity {
     String username;
     LinearLayout linLayout;
-    TextView messageTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_view_snap);
         Intent intent = getIntent();
         username = intent.getStringExtra("username");
-        setTitle(username + "'s message");
+        setTitle(username + "'s Snap");
 
 
 
         linLayout = findViewById(R.id.linLayout);
-        messageTextView = findViewById(R.id.messageTextView);
+       // messageTextView = findViewById(R.id.messageTextView);
         ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("snap");
         //selecting class name
-
         query.whereEqualTo("username", username);
         //selecting objects by username
         query.orderByDescending("createdAt");
@@ -52,8 +53,6 @@ public class ViewSnapActivity extends AppCompatActivity {
                     //if everything is ok
                     for (ParseObject object : objects) {
                         //looping through objects
-
-                        messageTextView.setText(object.getString("message"));
                         ParseFile file = (ParseFile) object.get("image");
                         //getting parse object
 
@@ -78,11 +77,16 @@ public class ViewSnapActivity extends AppCompatActivity {
                                     linLayout.addView(imageView);
                                     //adding imageview to layout
                                 }
+                                else
+                                    Log.i("error", String.valueOf(e));
                             }
                         });
                     }
                 }
+                else
+                    Log.i("error", String.valueOf(e));
             }
         });
+
     }
 }

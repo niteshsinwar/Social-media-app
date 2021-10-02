@@ -23,20 +23,20 @@ public class FeedActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feed);
-
         setTitle("Your Feed");
 
-        final ListView listView = findViewById(R.id.listView);
 
+        final ListView listView = findViewById(R.id.listView);
         final List<Map<String,String>> tweetData = new ArrayList<>();
 
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweet");
+        //selecting those user which are followed by current user
         query.whereContainedIn("username", ParseUser.getCurrentUser().getList("isFollowing"));
         query.orderByDescending("createdAt");
         query.setLimit(20);
 
         query.findInBackground(new FindCallback<ParseObject>() {
-            @Override
+            @Override//adding tweet+username to array adaptor
             public void done(List<ParseObject> objects, ParseException e) {
                 if (e == null) {
                     for (ParseObject tweet : objects) {
@@ -46,7 +46,6 @@ public class FeedActivity extends AppCompatActivity {
                         tweetData.add(tweetInfo);
                     }
                     SimpleAdapter simpleAdapter = new SimpleAdapter(FeedActivity.this, tweetData,android.R.layout.simple_list_item_2, new String[] {"content","username"}, new int[] {android.R.id.text1,android.R.id.text2});
-
                     listView.setAdapter(simpleAdapter);
                 }
             }

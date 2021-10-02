@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\programs\\.my programs\\app development\\z-myProjects\\6-nistayte\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\programs\\.my programs\\app development\\z-myProjects\\2-nistayte\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\programs\\.my programs\\app development\\z-myProjects\\6-nistayte\\ParseStarterProject\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\programs\\.my programs\\app development\\z-myProjects\\2-nistayte\\ParseStarterProject\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "12",
                         "startColumns": "4",

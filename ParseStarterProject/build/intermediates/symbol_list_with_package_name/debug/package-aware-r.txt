@@ -2420,7 +2420,6 @@ id chip1
 id chip2
 id chip3
 id chip_group
-id chooseImageButton
 id chronometer
 id circle_center
 id classic
@@ -2442,7 +2441,6 @@ id coordinator
 id cos
 id counterclockwise
 id crash_reporting_present
-id createSnapImageView
 id custom
 id customPanel
 id cut
@@ -2595,7 +2593,6 @@ id material_timepicker_view
 id material_value_index
 id media_actions
 id message
-id messageEditText
 id messageTextView
 id middle
 id mini
@@ -2968,7 +2965,6 @@ layout activity_dashboard
 layout activity_feed
 layout activity_main
 layout activity_notification
-layout activity_share_snap
 layout activity_users
 layout activity_view_snap
 layout cast_expanded_controller_activity

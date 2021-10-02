@@ -40,30 +40,31 @@ public class NotificationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
-
         setTitle("Notifications");
 
 
+       //setting up array adaptor
         final ListView listView = findViewById(R.id.nistview);
         listView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
-
         adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_checked,users);
-
         listView.setAdapter(adapter);
 
-        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //this function will excecute when we long click an item
-                final int itemToDelete = i;
 
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override//it will open alert box if we long click the item
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                 //alert dialog box
+                final int itemToDelete = i;
                 new AlertDialog.Builder(NotificationActivity.this)
                         //alert dialog box
                         .setIcon(android.R.drawable.ic_dialog_alert)
                         .setTitle("Are you sure?")
                         .setMessage("Do you want to delete this note?")
+
+
+                        //it will delete item from database and update array adaptor when we click yes
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                            @Override//this function will excecutre when we click yes
+                            @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
                                  delete =users.get(itemToDelete);
                                 ParseQuery<ParseObject> query = ParseQuery.getQuery("snap");
@@ -81,19 +82,20 @@ public class NotificationActivity extends AppCompatActivity {
                                     }
                                 });
 
+                                //deleting item from array then updating list view
                                users.remove(itemToDelete);
-                                adapter.notifyDataSetChanged();
-                                //deleting item from notes then updating list view
-
-
-                                //saving changes
+                               adapter.notifyDataSetChanged();
                             }
                         })
+                        // nothing will happen when we click no
                         .setNegativeButton("No",null)
-                        .show();// nothing will happen when we click no
+                        .show();
                 return true;
             }
         });
+
+
+        //it will open view snap activity when we click any notification item
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -101,37 +103,30 @@ public class NotificationActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), ViewSnapActivity.class);
                 intent.putExtra("username", users.get(i));
                 startActivity(intent);
-
-
                 ParseUser.getCurrentUser().saveInBackground();
             }
         });
 
+
+        //fetching data from database for current user
         ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("snap");
-
         query.whereEqualTo("reciever", ParseUser.getCurrentUser().getUsername());
-
-
         List<ParseQuery<ParseObject>> queries = new ArrayList<ParseQuery<ParseObject>>();
 
         queries.add(query);
-
         query.orderByAscending("createdAt");
-
         query.findInBackground(new FindCallback<ParseObject>() {
-            @Override
+
+            @Override//adding all the data to list view
             public void done(List<ParseObject> objects, ParseException e) {
                 if (e == null && objects.size() > 0) {
                     for (ParseObject user : objects) {
                         users.add(user.getString("username"));
                     }
-
                     adapter.notifyDataSetChanged();
 
                     for (String username : users) {
-
-                            listView.setItemChecked(users.indexOf(username), true);
-
+                        listView.setItemChecked(users.indexOf(username), true);
                     }
                 }
             }

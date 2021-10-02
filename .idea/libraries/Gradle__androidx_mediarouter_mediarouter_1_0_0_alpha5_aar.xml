@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.mediarouter:mediarouter:1.0.0-alpha5@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4d1af0e74f5394e2e1b2dbd152897899/transformed/mediarouter-1.0.0-alpha5/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/08fe2363ec1466e30905684108b3af54/transformed/mediarouter-1.0.0-alpha5/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d1af0e74f5394e2e1b2dbd152897899/transformed/mediarouter-1.0.0-alpha5/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4d1af0e74f5394e2e1b2dbd152897899/transformed/mediarouter-1.0.0-alpha5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4d1af0e74f5394e2e1b2dbd152897899/transformed/mediarouter-1.0.0-alpha5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/08fe2363ec1466e30905684108b3af54/transformed/mediarouter-1.0.0-alpha5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/08fe2363ec1466e30905684108b3af54/transformed/mediarouter-1.0.0-alpha5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/08fe2363ec1466e30905684108b3af54/transformed/mediarouter-1.0.0-alpha5/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

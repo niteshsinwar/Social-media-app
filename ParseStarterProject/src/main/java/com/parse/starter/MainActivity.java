@@ -28,6 +28,7 @@ import com.parse.SignUpCallback;
 
 public class MainActivity extends AppCompatActivity {
 
+  //redirect to user list activity
   public void redirectUser() {
     if (ParseUser.getCurrentUser() != null) {
       Intent intent = new Intent(getApplicationContext(),UsersActivity.class);
@@ -35,17 +36,26 @@ public class MainActivity extends AppCompatActivity {
     }
   }
 
+
+
+
+  //login/sign up
   public void signupLogin(View view) {
     final EditText usernameEditText = findViewById(R.id.usernameEditText);
     final EditText passwordEditText = findViewById(R.id.passwordEditText);
 
+
+
+    //trying to login
     ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
       @Override
       public void done(ParseUser user, ParseException e) {
-        if (e == null) {
-          Log.i("Login", "Success!");
-          redirectUser();
-        } else {
+        if (e == null)
+        { redirectUser(); }
+
+
+        //trying to sign up if login failed
+        else {
           ParseUser newUser = new ParseUser();
           newUser.setUsername(usernameEditText.getText().toString());
           newUser.setPassword(passwordEditText.getText().toString());
@@ -53,10 +63,11 @@ public class MainActivity extends AppCompatActivity {
           newUser.signUpInBackground(new SignUpCallback() {
             @Override
             public void done(ParseException e) {
-              if (e == null) {
-                Log.i("Signup", "Success!");
-                redirectUser();
-              } else {
+              if (e == null)
+              { redirectUser(); }
+
+              //show message if everything is failed
+              else {
                 Toast.makeText(MainActivity.this, e.getMessage().substring(e.getMessage().indexOf(" ")),Toast.LENGTH_SHORT).show();
               }
             }
@@ -73,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
     setTitle("nistayte: Login");
     redirectUser();
-
+    //required function for database
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
 
