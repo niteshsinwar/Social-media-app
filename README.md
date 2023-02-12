@@ -12,4 +12,5 @@
 - Clone the repository to your local machine.
 - Create a Parse Server and update the ApplicationId, ClientKey, and ServerUrl in the Parse.initialize method in the Application class.
 Build - and run the application on your Android device or emulator.
-📌(APK file is also given in GitHub repository from where you can download and test my app on your device)
+<br>
+📌 (Note: The services for this Android app are currently down as I  in the process of migrating from AWS to Firebase.)
